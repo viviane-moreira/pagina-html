@@ -1,0 +1,50 @@
+<!-- O Doctype, quer dizer "tipo de documento", que no caso ele diz que este documento é um documento HTML5 -->
+<!DOCTYPE html>
+<!-- Aqui no Title, significa título, é o título desta página HTML, ela é única, cada página deve ter o seu título -->
+<html>
+<!-- O "head" significa "cabeça", aqui colocamos as informações sobre a página web, como o título da página e seus estilos CSS -->
+<head>
+	<!-- Aqui no Title, significa título, é o título desta página HTML, ela é única, cada página deve ter o seu título -->
+	<title>Curso de HTML5 e CSS3</title>
+	<!-- A TAG Style significa "estilo", aqui colocamos dentro da tag os estilos que definirmos no HTML -->
+	<style>
+		div.elemento-retangular{
+			background: #c00;
+			height: 100px;
+			width: 100px;
+		}
+	</style>
+</head>
+<!-- O body, quer dizer "corpo", ou seja, tudo que colocamos aqui aparece na página WEB -->
+<body>
+	<!-- Esta TAG chama-se DIV, que significa DIVISÃO, ela é usada para fazer blocos de elementos da página web -->
+	<!-- O "class" é um atributo, ou seja, é uma "qualidade" dos elementos HTML, onde podemos nomear e depois utilizar 
+		a partir da qualidade deste elemento, neste caso DIV, para colocar "estilos" na <DIV>, como mudar a cor do fundo -->
+	<div class="main">
+		<!-- Esta TAG é um comentário, que não aparece na página -->
+		<!-- 
+			A TAG HEADER significa CABEÇA - Cabeçalho Nesta TAG colocamos elementos introdutórios da minha página web, como um menu
+			de navegação, ou no caso de uma notícia, por exemplo, utilizamos para colocar o título da notícia, a base inicial da notícia.  
+		-->
+		<header>
+			<!-- A Tag h1 é representada pelo título 1, ou seja, o título principal da página -->
+			<h1>Hoje Vamos Aprender Mais sobre CSS</h1>				
+		</header>	
+		<!-- A TAG SECTION significa seção, ou seja, é uma seção da minha página web -->
+		<section>
+			<div class="elemento-retangular">
+				<p>Aqui teremos um Elemento com formato retangular</p>
+			</div>
+		</section>		
+		<!-- A TAG FOOTER, significa rodapé - utilizamos esta TAG para finalizar o contexto da página web, 
+				por exemplo, podemos colocar dentro desta TAG, o endereço da página web se possuir e usar o 
+				"copyright" que significa "direitos autorais". Podemos usar também o "autor da seção", 
+				pensando numa página de notícia.
+		-->
+		<footer>
+			<!-- esta TAG <p> significa parágrafo -->
+			<p>Autor: Thabata Marchi</p>
+		</footer>
+	</div>
+</body>
+</html>
